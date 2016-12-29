@@ -10,6 +10,8 @@ y además por un curso corto de la **fing** que se llama Tecnólogo Informático
 
 
 Mis cualidades (Las descubiertas, porque todavía queda mucho por averigüar que soy capaz de hacer) son las siguientes:
+
+
 * Programación Python(Django, POO, Web Scraping).
 * Administración de Base de Datos (MySQL, MongoDB).
 * Shell Scripting (bash).
