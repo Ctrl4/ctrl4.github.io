@@ -12,12 +12,12 @@ y además por un curso corto de la **fing** que se llama Tecnólogo Informático
 Mis cualidades (Las descubiertas, porque todavía queda mucho por averigüar que soy capaz de hacer) son las siguientes:
 
 
-* Programación Python(Django, POO, Web Scraping).
-* Administración de Base de Datos (MySQL, MongoDB).
-* Shell Scripting (bash).
-* Vim editor... aunque para ediciones rápidas use nano(¡Si, soy un hereje!).
-* Toco la guitarra, y canto de tal forma que las canciones élficas quedan opacadas.
-* Jugador empedernido de League of Legends.
+- Programación Python(Django, POO, Web Scraping).
+- Administración de Base de Datos (MySQL, MongoDB).
+- Shell Scripting (bash).
+- Vim editor... aunque para ediciones rápidas use nano(¡Si, soy un hereje!).
+- Toco la guitarra, y canto de tal forma que las canciones élficas quedan opacadas.
+- Jugador empedernido de League of Legends.
 
 
 ### Un poco de historia
