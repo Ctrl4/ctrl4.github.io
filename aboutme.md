@@ -2,6 +2,7 @@
 layout: page
 title: Sobre mi
 subtitle: Un poco de información que te llevarán a conocerme un poquito más
+image: /img/mateo_f.jpg
 ---
 
 Me llamo Mateo Fleitas. Soy un estudiante de la [fing](https://www.fing.edu.uy); sin embargo he pasado ya por la [Facultad de Psicología](https://www.psico.edu.uy)
