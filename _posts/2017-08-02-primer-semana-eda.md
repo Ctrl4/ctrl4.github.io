@@ -61,7 +61,7 @@ A continuación dejo el link a los ejercicios (La letra de los mismos están com
 
 
 Por lo pronto esto es todo por esta semana en lo que respecta a EDA, intentaré subir los apuntes de EDA los miércoles.
-Los miércoles tengo Matemática Discreta 2, la cual creo que me llevará más tiempo de estudio ya que hace tiempo que no la estudio (a diferencia que programar por más que sea en otro lenguaje uno lo hace más a menudo). Intentaré subir los apuntes de discreta 2 al día siguiente de la clase.
-Y los jueves y viernes tengo Bases de Datos, e intentaré subir estos apuntes los sábados.
+Los apuntes de Matemática Discreta 2 intentaré subirlos el jueves
+Y los de Bases de Datos, intentaré subirlos los sábados.
 
 ¡Saludos!
