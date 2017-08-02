@@ -27,16 +27,18 @@ Todo lo que tenga un numeral (#) no se compila, pasa directamente al pre-procesa
 
 ---
 
-__**Estructuras de Control**__
+**Estructuras de Control**
 
 Selección:
 - if
 - else
 - switch
+
 Repetición
 - for
 - while
 - dowhile
+
 Secuencia
 - operaciones
 - entradas/salidas
@@ -48,6 +50,9 @@ A continuación dejo el link a los ejercicios (La letra de los mismos están com
 + [Ejercicio 1](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio01)
 + [Ejercicio 2](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio02)
 + [Ejercicio 3](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio03)
+
+**Ejercicios comenzando a modularizar**
+
 + [Ejercicio 4](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio04)
 + [Ejercicio 5](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio05)
 + [Ejercicio 6](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2001/Ejercicio06) (Incompleto)
