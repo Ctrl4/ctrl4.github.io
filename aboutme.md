@@ -5,8 +5,8 @@ subtitle: Un poco de información que te llevarán a conocerme un poquito más
 image: /img/mateo_f.jpg
 ---
 
-Me llamo Mateo Fleitas. Soy un estudiante de la [fing](https://www.fing.edu.uy); sin embargo he pasado ya por la [Facultad de Psicología](https://www.psico.edu.uy)
-y además por un curso corto de la **fing** que se llama Tecnólogo Informático, el cual no terminé por querer sacarme las ganas de estudiar un poco de Psicología. Y aunque no continué dicha carrera, me di cuenta que quería hacer una carrera universitaria (Tecnoinf es terciaria, no universitaria), por lo tanto, finalmente decidí anotarme en ingeniería en el 2016 y acá estoy.
+Me llamo Mateo Fleitas. Soy un estudiante del [Tecnólogo en Informática](https://www.fing.edu.uy/tecnoinf), el cual es un curso corto de la **fing**. Comencé dicho curso en 2013 y por motivos personales (más que nada por la falta de lectura sobre cossas ajenas al mundo de la informática), 2 años más tarde decidí anotarme en la [Facultad de Psicología](https://www.psico.edu.uy).
+Habiendo saciado la sed de lectura sobre varios autores que me mandaron leer en dicha facultad, volví al ruedo de lo que a mi parecer es mi futuro profesional, en 2017 vuelvo al **Tecnólogo**, y así dejando para el futuro un poco más lejano seguir con Psicología o quizás Sociología, pero de eso hablaremos cuando toque hablar.
 
 
 Mis cualidades (Las descubiertas, porque todavía queda mucho por averigüar que soy capaz de hacer) son las siguientes:
@@ -15,7 +15,7 @@ Mis cualidades (Las descubiertas, porque todavía queda mucho por averigüar que
 - Programación Python(Django, POO, Web Scraping).
 - Administración de Base de Datos (MySQL, MongoDB).
 - Shell Scripting (bash).
-- Vim editor... aunque para ediciones rápidas use nano(¡Si, soy un hereje!).
+- Vim editor (¡Hasta sé como salir del mismo!)... aunque para ediciones rápidas use nano(¡Herejía!).
 - Toco la guitarra, y canto de tal forma que las canciones élficas quedan opacadas.
 - Jugador empedernido de League of Legends.
 
