@@ -51,8 +51,11 @@ Ahora si, empezando con matemática discreta y lógica 2.
 Si tenemos las siguientes 4 figuras:
 
 1) ![image]({{url.site}}/img/mdl2/clase1/ejemplo1.png)
+
 2) ![image]({{url.site}}/img/mdl2/clase1/ejemplo2.png)
+
 3) ![image]({{url.site}}/img/mdl2/clase1/ejemplo3.png)
+
 4) ![image]({{url.site}}/img/mdl2/clase1/ejemplo4.png)
 
 ¿Cuáles de estas 4 imágenes podrían dibujarse sin levantar el lapiz? Entendiendo que sólamente se pueden repetir los vértices (circulos con letras adentro) y no las aristas(líneas que unen a los vértices).
@@ -103,7 +106,7 @@ Esto nos lleva a sacar las siguientes conclusiones:
 
 ---
 
-**Definiciones: **
+__Definiciones: __
 - Grafo: Conjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, que permiten representar relaciones binarias  entre elementos de un conjunto.
 
 Se representa G=(V,A)
@@ -117,11 +120,15 @@ Se representa V={a,b,c}
 Para caracterizar un grafo G son suficientes únicamente el conjunto de todas sus aristas, comúnmente denotado con la letra E (del término en inglés edge), junto con el conjunto de sus vértices, denotado por V. Así, dicho grafo se puede representar como G(V,E), o bien G = (V,E).
 
 {% raw %}
-A С VxV ={(α,β)/α€V,β€V} >Grafo dirigido
-A С {{α,β}/α€V,β€V} >Grafo no dirigido
+
+> Grafo dirigido
+A С VxV ={(α,β)/α€V,β€V}
+>Grafo no dirigido
+A С {{α,β}/α€V,β€V}
 
 Se representa A={{c,b},{c,b}',{a,b}}
 {% endraw %}
+
 >Fuente:
 > - [Grafos - Wikipedia](https://es.wikipedia.org/wiki/Grafo)
 > - [Vértice - Wikipedia](https://es.wikipedia.org/wiki/V%C3%A9rtice_(teor%C3%ADa_de_grafos))
