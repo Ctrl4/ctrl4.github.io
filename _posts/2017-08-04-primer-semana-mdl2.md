@@ -116,12 +116,12 @@ Se representa V={a,b,c}
 
 Para caracterizar un grafo G son suficientes únicamente el conjunto de todas sus aristas, comúnmente denotado con la letra E (del término en inglés edge), junto con el conjunto de sus vértices, denotado por V. Así, dicho grafo se puede representar como G(V,E), o bien G = (V,E).
 
-
+{ % raw % }
 A С VxV ={(α,β)/α€V,β€V} >Grafo dirigido
 A С {{α,β}/α€V,β€V} >Grafo no dirigido
 
 Se representa A={{c,b},{c,b}',{a,b}}
-
+{ % endraw %}
 >Fuente:
 > - [Grafos - Wikipedia](https://es.wikipedia.org/wiki/Grafo)
 > - [Vértice - Wikipedia](https://es.wikipedia.org/wiki/V%C3%A9rtice_(teor%C3%ADa_de_grafos))
