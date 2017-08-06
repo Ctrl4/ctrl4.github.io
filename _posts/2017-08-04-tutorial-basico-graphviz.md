@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Tutorial básico de Graphviz para matemática discreta (Actualizable)
+tags:
+- tutorial
+- graphviz
 ---
 
 Como me di cuenta que el post de [discreta 2]({{site.url}}/2017-08-04-primer-semana-mdl2/) se me iba a hacer demasiado largo si al comienzo del mismo explicaba cosas básicas de Graphviz _(el programa que encontré para poder dibujar de forma sencilla y prolija los grafos con los que vamos a trabajar en la materia)_ decidí crear un nuevo post en cual ir actualizando a medida que vaya siendo necesario, como utilizar este software.

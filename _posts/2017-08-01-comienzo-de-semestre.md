@@ -2,6 +2,8 @@
 layout: post
 title: Mitad de año nuevo, mitad de vida nueva
 subtitle: Comenzando a estudiar nuevamente en el tecnólogo en informática, dejo lo que será mi "cuaderno online" de apuntes.
+tags:
+- ctrl4
 ---
 
 Dejando bien en claro mi capacidad de llevar adelante un proyecto (?) es que cambio la perspectiva de este blog.

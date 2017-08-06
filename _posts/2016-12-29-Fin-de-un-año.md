@@ -2,6 +2,8 @@
 layout: post
 title: Año nuevo, proyecto nuevo
 subtitle: Termina el año y algunos se van de vacaciones, otros se ponen a trabajar. (Envidiando a quienes se van de viaje :())
+tags:
+- ctrl4
 ---
 
 
