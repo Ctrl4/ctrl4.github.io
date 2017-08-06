@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Primera semana de MDL2(por terminar)
-tags:
-- apuntes
-- mdl2
-- matematica
+tags: [apuntes, mdl2, matematica]
 ---
 
 Mientras estaba en clase, pensaba *¡Hostia, como madres escribo esto en el blog!*, ya que la profesora, Elisa Rocha, (la cual explicaba muy bien), empezó la explicación con un "juego", y los ejemplos para empezar a hablar de grafos eran como anécdotas.
