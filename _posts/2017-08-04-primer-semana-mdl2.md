@@ -161,8 +161,8 @@ __Ejemplo:__
 
 ![image]({{site.url}}/img/mdl2/clase1/ejemplo_ciclo.png)
 
-    C=(d,c,b,a,d) Es un camino
-    C=(d,c,e) No es un camino
+    C=(d,c,b,a,d) Es un ciclo
+    C=(d,c,e) No es un camino ni un ciclo
 
 ---
 
