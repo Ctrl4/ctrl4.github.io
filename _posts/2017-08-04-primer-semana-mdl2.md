@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Primera semana de MDL2(por terminar)
+category: apuntes
 tags: [apuntes, mdl2, matematica]
 ---
 
