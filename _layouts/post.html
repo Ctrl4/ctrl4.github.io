@@ -17,8 +17,8 @@ layout: base
 
       <article role="main" class="blog-post">
         {{ content }}
+        <p id="post-meta">{{ category_content }}</p>
       </article>
-      <p id="post-meta">{{ category_content }}</p>
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
