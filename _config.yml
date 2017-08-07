@@ -127,9 +127,9 @@ collections:
     my_categories:
         output: true
         permalink: /blog/category/:name/
-        
+
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
+link-tags: true
 
 # Exclude these files from production site
 exclude:

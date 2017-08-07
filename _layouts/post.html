@@ -2,13 +2,6 @@
 layout: base
 ---
 
-{% assign category = site.my_categories | where: "slug", post.category %}
-{% assign category = category[0] %}
-{% if category %}
-    {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
-{% endif %}
-
-
 {% include header.html type="post" %}
 
 <div class="container">
@@ -17,7 +10,6 @@ layout: base
 
       <article role="main" class="blog-post">
         {{ content }}
-        <p id="post-meta">{{ category_content }}</p>
       </article>
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
