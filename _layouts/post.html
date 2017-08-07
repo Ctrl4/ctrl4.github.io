@@ -11,14 +11,6 @@ layout: base
       <article role="main" class="blog-post">
         {{ content }}
       </article>
-      {% comment %}
-        =======================
-        The purpose of this snippet is to list all the tags you have in your site.
-        =======================
-        {% endcomment %}
-        {% for tag in tags %}
-	       <a href="#{{ tag | slugify }}"> {{ tag }} </a>
-        {% endfor %}
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
