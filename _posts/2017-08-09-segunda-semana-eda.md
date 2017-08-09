@@ -22,9 +22,9 @@ Son mecanismos que proveen los lenguajes d eprogramación para almacenar datos e
 >Nota: Doy solo dos ejemplos de estructuras dinámicas ya que las veremos más adelante con detalle, y no las listamos en clase.
 
 
-#__Estructuras estáticas__:#
+__Estructuras estáticas__:
 
-##__Arreglos__##
+__Arreglos__
 
 Un arreglo es una secuencia de N valores, todos ellos del mismo tipo, siendo N un valor constante que se define en forma previa a la ejecución del programa.
 Ejemplo:
@@ -36,7 +36,7 @@ La variable con el nombre "arreglo" guarda 5 espacios iguales en memoria para al
     arreglo[5] = [ ] [ ] [ ] [ ] [ ]
                   0   1   2   3   4
 
-##__Arreglos con tope__##
+__Arreglos con tope__
 
 Un arreglo con tope es como un arreglo común, pero con la diferencia de que no estamos obligados a cargar todas las posiciones, sino que vamos cargando los valores de a uno, teniendo un tope que nos indica cuántos elementos llevamos cargados hasta el momento.              
 Ejemplo:
@@ -64,7 +64,7 @@ Y si eliminamos el último número:
 
 Cabe aclarar que el lenguaje C no cuenta con funciones para hacer esto automáticamente (si cuenta con ellas, lo cual es lo más probable, lo desconozco) por lo tanto hay que realizar todas estas funciones nosotros, lo cual vamos a practicar en los ejercicios planteados más adelante.
 
-##__Matrices__##
+__Matrices__
 
 Los arreglos en C pueden tener múltiples subíndices. Un uso común es la representación de tablas de valores que constan de información organizada en filas y columnas. Para identificar un elemento particular de una tabla, debemos especificar dos subíndices: el primero(por convención) identifica la fila del elemento, y el segundo(por convención) identifica la columna del elemento.
 Ejemplo:
@@ -81,7 +81,7 @@ Esto se representaría de la siguiente manera
                   [ ] [ ] [ ] [ ] [ ]
 
 ---
-##__Modularización__##
+__Modularización__
 
 Modularizar nuestro código surge de la necesidad de mejorar la forma en que escribimos el código. En teoría podríamos escribir los programas más complejos en un solo archivo y sin usar funciones, pero esto haría que la complejidad al momento de mantenerlo o de agregar funcionalidades a nuestro programa sea imposible, o muy difícil y por lo tanto que no valga la pena el trabajo.
 Así es como se pasó de la __programación lineal__ a la __programación estructurada__.
@@ -101,7 +101,7 @@ Dejo el link al código fuente del ejercicio sobre [estructuras estáticas](http
 
 ---
 
-##__Tipos abstractos de datos(TAD)__##
+__Tipos abstractos de datos(TAD)__
 
 El problema fundamental que se presenta en el desarrollo de programas está vinculado a la alta complejidad de los mismos. En la mayoría delos casos, dicha complejidad escapa a la posibilidad de una comprensión directa e inmediata de la totalidad del problema a resolver. Surge entonces la necesidad de una primera fase de análisis, previa a la implementación de un problema en un lenguaje de programación, cuyo objetivo fundamental es lograr una correcta comprensión del problema a resolver.
 El análisis es el primer paso en la construcción de programas que permite obtener una descripción lo más precisa posible (aunque no necesariamente formal) de dicho problema. __Una manera__ de tratar con la complejidad de los problemas es _descomponer el problema en problemas más pequeños_, a su vez para resolver estos últimos puede volver a aplicarse el mismo cirterio y continuar con el proceso hasta poder resolverse sin necesidad de descomposición.
