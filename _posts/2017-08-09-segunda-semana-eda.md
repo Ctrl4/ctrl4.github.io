@@ -120,4 +120,4 @@ Nos centraremos particularmente en el análisis de los diferentes tipos de colec
 
 ---
 
-Después del choclo anterior de texto el cual es sacado del archivo que envió el profesor agregado en la [fuente]({{fuente}}) dejo el link al ejercicio de [tipos abstractos de datos](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2002/tipos_abstractos_de_datos).
+Después del choclo anterior de texto el cual es sacado del archivo que envió el profesor agregado en la [fuente]({{page.fuente}}) dejo el link al ejercicio de [tipos abstractos de datos](https://github.com/Ctrl4/Estructura-de-Datos-y-Algoritmos/tree/master/Semana%2002/tipos_abstractos_de_datos).
