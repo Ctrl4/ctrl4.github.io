@@ -39,8 +39,8 @@ See '/usr/bin/docker-current run --help'.
 
 Para resolver esto debemos crear un grupo llamado docker y agregar nuestro usuario a dicho grupo
 
-   sudo groupadd docker
-   sudo usermod -aG docker $(whoami) #Si no estamos logueados en el usuario que queremos agregar al grupo
+    sudo groupadd docker
+    sudo usermod -aG docker $(whoami) #Si no estamos logueados en el usuario que queremos agregar al grupo
                                      #simplemente reemplazamos $(whoami) por el nombre del usuario.
 
 Deslogueamos y entramos nuevamente a la cuenta del usuario y ahora efectivamente podemos usar docker sin problemas.
