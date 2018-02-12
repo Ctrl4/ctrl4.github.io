@@ -19,29 +19,36 @@ Hoy vamos a dejar instalado otra herramienta para facilitar el trabajo de config
 
 Para instalar Docker Compose necesitamos pip, la herramienta de descarga de paquetes de python, por lo tanto también necesitamos Python.
   
+  ```
 	sudo yum install epel-release
 	sudo yum install -y python-pip
+```
 
 Y recién acá podemos instalar Docker Compose utilizando pip
 
+```
   	sudo pip install docker-compose
+```
 
 ### Creación de MySQL mediante Docker Compose
 
 Como dijimos anteriormente, vamos a crear 3 contenedores de Docker mediante Docker Compose. Este último se configura con un archivo llamado `docker-compose.yml`. Vamos a crearlo y a configurar los 3 contenedores.
 
+```
   	vim docker-compose-yml
+```
 
 Con el siguiente contenido:
-	
-	local98:									# Nombre del servicio tomcado por docker si no se especifica el nombre del contenedor
+
+```	
+	local98:							# Nombre del servicio tomcado por docker si no se especifica el nombre del contenedor
         image: mysql:8							# Imagen tomada del repositorio de dockerhub de mysql versión 8 
-        container_name: mysql-local98			# Nombre del contenedor
+        container_name: mysql-local98					# Nombre del contenedor
         restart: always							# En caso de que ocurra algún problema donde el contenedor se caiga, se reinicia automáticamente
         environment:							# Variables de entorno 
-                MYSQL_ROOT_PASSWORD: "passwordsecreta"  # Variable para definir la contraseña del usuario root
+                MYSQL_ROOT_PASSWORD: "passwordsecreta"  		# Variable para definir la contraseña del usuario root
 
-	local99:									# Lo mismo que se define arriba solamente que cambiando el nombre del container y el servicio
+	local99:							# Lo mismo que se define arriba solamente que cambiando el nombre del container y el servicio
         image: mysql:8
         container_name: mysql-local99
         restart: always
@@ -54,7 +61,7 @@ Con el siguiente contenido:
         restart: always
         environment:
                 MYSQL_ROOT_PASSWORD: "passwordsecreta"
-
+```
 
 Esta es una configuración muy básica pero suficiente como para poder dejar andando los contenedores.
 Como vemos consta de 3 bloques de configuración cada uno.
