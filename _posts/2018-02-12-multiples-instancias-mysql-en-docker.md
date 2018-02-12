@@ -66,3 +66,78 @@ central:
 Esta es una configuración muy básica pero suficiente como para poder dejar andando los contenedores.
 Como vemos consta de 3 bloques de configuración cada uno.
 
+Entonces ejecutamos `docker-compose up` y si todo sale bien despues de un breve lapso de tiempo podemos ejecutar `docker-compose ps` y obtendremos un resultado parecido al siguiente:
+
+```
+[ctrl4@ChuckNorris local98]$ docker-compose ps
+    Name                  Command             State    Ports  
+--------------------------------------------------------------
+mysql-central   docker-entrypoint.sh mysqld   Up      3306/tcp
+mysql-local98   docker-entrypoint.sh mysqld   Up      3306/tcp
+mysql-local99   docker-entrypoint.sh mysqld   Up      3306/tcp
+```
+
+Podremos ir monitoreando los logs mediante `docker-compose logs` y si no quedan en estado 'Up' será momento de empezar a indagar y googlear ;)
+
+Otro comando importante para saber la ip de nuestros contenedores para luego conectarnos con nuestro y cliente mysql y ahí si, efectivamente, corroborar que está andando todo bien, es `docker inspect <nombre del contenedor>` Ejemplo:
+
+```
+[ctrl4@ChuckNorris local98]$ docker inspect mysql-central
+
+#### GRAN BLOQUE DE PARAMETROS, PERO SOLAMENTE ME INTERESA EL DEL FINAL ####
+
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "6ea2b9d6047aa0e7efe97262d7d0645f14f0cfb3b1fc130547577a0ac57d1fd4",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "3306/tcp": null
+            },
+            "SandboxKey": "/var/run/docker/netns/6ea2b9d6047a",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "77bd76b50e07d2ca067d8b31b00a91a08d80897e9b535a344481ccbdb83743f2",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            *"IPAddress": "172.17.0.2",*
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "42ad81c93ebdfac5c388076089d1bc377d498fdae9146c42cd99edd8707a6997",
+                    "EndpointID": "77bd76b50e07d2ca067d8b31b00a91a08d80897e9b535a344481ccbdb83743f2",
+                    "Gateway": "172.17.0.1",
+                    *"IPAddress": "172.17.0.2",*
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02"
+                }
+            }
+        }
+    }
+]
+```
+
+En negrita podemos ver la dirección ip y utilizando `mysql -uroot -ppasswordsecreta -h 172.17.0.2` podemos entrar y por fin empezar a jugar con las bases de datos.
+
+```
+[ctrl4@ChuckNorris local98]$ mysql -uroot -ppasswordsecreta -h 172.17.0.2
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.3-rc-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MySQL [(none)]> 
+```
