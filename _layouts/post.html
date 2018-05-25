@@ -24,6 +24,10 @@ layout: base
         </div>
       {% endif %}
 
+      {% if page.comments %}
+      	{% include comments.html %}
+      {% endif %}
+
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
@@ -41,9 +45,6 @@ layout: base
         {% endif %}
       </ul>
 
-      {% if page.comments %}
-          {% include comments.html %}
-      {% endif %}
     </div>
   </div>
 </div>
