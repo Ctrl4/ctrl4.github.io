@@ -44,7 +44,7 @@ avatar: "/img/CTRL_4.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Mateo Fleitas
-  email: "contact@mateofleitas.com"
+  email: "mail <at> mateofleitas.com"
   facebook: chowderf  # eg. daattali
   github: ctrl4  # eg. daattali
   stackoverflow: 5943189/ctrl-4  # eg. "3943160/daattali"
@@ -84,7 +84,7 @@ share-links-active:
 #disqus: "chowderl"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-104193901-1"
+# google_analytics: "UA-104193901-1"
 
 # Facebook App ID
 # fb_app_id: ""
