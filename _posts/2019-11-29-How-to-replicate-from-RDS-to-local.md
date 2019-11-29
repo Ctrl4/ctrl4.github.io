@@ -34,6 +34,7 @@ Binlog position from crash recovery is mysql-bin-changelog.000003 99358949
 ```
 mysqldump --databases database --host=host.com --single-transaction --order-by-primary -r database.sql -u <user> -p
 ```
+
 This instance can be deleted after dump is complete
 
 ---
@@ -51,6 +52,7 @@ CHANGE MASTER TO
 FOR CHANNEL 'channel_xxx';
 START SLAVE FOR CHANNEL 'channel_xxx'
 ```
+
 Now your local instance is replicating from RDS.
  
  
