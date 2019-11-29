@@ -39,7 +39,8 @@ This instance can be deleted after dump is complete
 
 ---
 ## Restore dump 
-* Create the database on the slave server and restore the dump in it.
+Create the database on the slave server and restore the dump in it.
+
 Then
 ```mysql
 CHANGE MASTER TO 
