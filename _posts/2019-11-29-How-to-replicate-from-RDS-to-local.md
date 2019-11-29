@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to replicate from RDS to local or EC2
-tags: ctrl4, mysql, rds
+tags: ctrl4 mysql rds
 ---
 
 As being RDS a managed service, and also having a managed solution for replication (the very same RDS), it is not as straight forward to **replicate** from RDS to a local MySQL instance.
@@ -11,8 +11,9 @@ We will assume you already've got the RDS instance and the local mysql instance 
 
 ## Prepare RDS instance
 Go to RDS console. In the left menu, select "Parameter Groups". Create parameter group or modify your own.
-The option that you need to care about is **binlog_format**, set it to MIXED.
+The option that you need to care about is *binlog_format*, set it to MIXED.
 If you created the parameter group you need to modify the instance and apply it. After that the instance must to be rebooted to apply changes. 
+
 ---
 ## Generate a dump file from the databases
 After rebooting the instance you need to execute a store procedure that aws gave us to work with replication.
@@ -34,6 +35,7 @@ Binlog position from crash recovery is mysql-bin-changelog.000003 99358949
 mysqldump --databases database --host=host.com --single-transaction --order-by-primary -r database.sql -u <user> -p
 ```
 This instance can be deleted after dump is complete
+
 ---
 ## Restore dump 
 * Create the database on the slave server and restore the dump in it.
